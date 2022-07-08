@@ -2,10 +2,7 @@ module.exports = ({ env }) => ({
 	"content-versioning": {
 		enabled:  true,
 	},
-});
-
-module.exports = ({ env }) => ({
-	'entity-notes': {
+    'entity-notes': {
 		enabled: true,
 	},
 });
