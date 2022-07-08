@@ -4,12 +4,17 @@
   "info": {
     "singularName": "about-me",
     "pluralName": "about-mes",
-    "displayName": "about_me"
+    "displayName": "about_me",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
   },
-  "pluginOptions": {},
+  "pluginOptions": {
+    "versions": {
+      "versioned": true
+    }
+  },
   "attributes": {
     "title": {
       "type": "string"
@@ -18,14 +23,15 @@
       "type": "richtext"
     },
     "picture": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
     }
   }
 }
